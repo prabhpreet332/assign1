@@ -3,7 +3,7 @@ import unittest
 from Sort.sort import sort
 
 
-class TestSum(unittest.TestCase):
+class TestSort(unittest.TestCase):
     def test1(self):
         """
         Test for sorted list
