@@ -33,8 +33,8 @@ def merge_sort(arr, left, right):
 
 
 def sort(arr):
-    merge_sort(arr, 0, len(arr))
-    return arr
+	merge_sort(arr, 0, len(arr))
+	return arr
 
 
 def main():
