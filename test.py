@@ -4,7 +4,7 @@ from Sort.sort import sort
 
 
 class TestSort(unittest.TestCase):
-    def test1(self):
+    def test_sorted_list(self):
         """
         Test for sorted list
         """
@@ -14,7 +14,7 @@ class TestSort(unittest.TestCase):
         self.assertCountEqual(result, expected)
         self.assertListEqual(result, expected)
 
-    def test2(self):
+    def test_single_element_list(self):
         """
         Test for single element list
         """
@@ -24,7 +24,7 @@ class TestSort(unittest.TestCase):
         self.assertCountEqual(result, expected)
         self.assertListEqual(result, expected)
 
-    def test3(self):
+    def test_empty_list(self):
         """
         Test for empty list
         """
@@ -34,7 +34,7 @@ class TestSort(unittest.TestCase):
         self.assertCountEqual(result, expected)
         self.assertListEqual(result, expected)
 
-    def test4(self):
+    def test_unsorted_list(self):
         """
         Test for unsorted list
         """
